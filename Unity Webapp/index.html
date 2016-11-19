@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Sugoi Nation | UnityTest</title>
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <link rel="shortcut icon" href="TemplateData/favicon.ico" />
+    <script src="TemplateData/UnityProgress.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="ui.css" rel="stylesheet">
+  </head>
+        
+        
+    <body>
+        <div class="col-sm-12" id = "header">
+            <p> <span style="font-size: 30px">AR Data Visualization </span>  presented by Sugoi Nation</p>
+        </div>
+        <div id = "video" class="col-sm-12 col-md-9" >
+        <body class="template">
+    <p class="header"><span>Unity WebGL Player | </span>UnityTest</p>
+    <div class="template-wrap clear">
+      <canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()" height="600px" width="960px"></canvas>
+      
+    </div>
+    <p class="footer">&laquo; created with <a href="http://unity3d.com/" title="Go to unity3d.com">Unity</a> &raquo;</p>
+    <script type='text/javascript'>
+  var Module = {
+    TOTAL_MEMORY: 268435456,
+    errorhandler: null,     // arguments: err, url, line. This function must return 'true' if the error is handled, otherwise 'false'
+    compatibilitycheck: null,
+    dataUrl: "Release/TestProjects.data",
+    codeUrl: "Release/TestProjects.js",
+    memUrl: "Release/TestProjects.mem",
+    
+  };
+</script>
+<script src="Release/UnityLoader.js"></script>
+  </body>
+  </div>
+        <div id = "options" class="col-sm-12 col-md-3" >
+            <h2><span class = "text">Sidebar</span></h2>
+            <form>
+                Time:<br>
+                <label>Start:</label> <input type="date" name="date1" value="date1" checked><br>
+                <label>End:</label><input type="date" name="date2" value="date2" checked><br><br>
+                Display Counter:
+                <br><input type="radio" name="display" value="a" checked> <b>A</b><br>
+                <input type="radio" name="display" value="b"> <b>B</b><br>
+                <input type="radio" name="display" value="c"> <b>C</b><br><br>
+                Predictive Model:
+                <br>
+                <label>Time:</label> <input type="text" name="time" placeholder="time">
+                <br>
+                
+                <label> Platform:</label>
+                <input type="text" name="platform" placeholder="platform">
+                <br>
+                <label> Type:</label>
+                <input type="text" name="type" placeholder="type">
+                <br><br>
+                <input id = "submit" type="submit" value="Submit">
+            </form>
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>
