@@ -15,7 +15,6 @@ div{
 }
 
 
-
 #header{
     background-color: #2c2a40;
     margin:auto;
@@ -34,6 +33,10 @@ div{
     height:550px;
     border: 1px solid white;
     color:#909090;
+}
+
+.black{
+    color: black;
 }
 
 #prediction{
@@ -60,4 +63,8 @@ input {
     height: 30px;
     line-height: 15px;
     color: black;
+}
+
+#pred{
+    font-size:20px;
 }

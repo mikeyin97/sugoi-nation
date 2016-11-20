@@ -15,35 +15,38 @@
     </head>
     <body>
         <div class="col-sm-12" id = "header">
-            <p> <span style="font-size: 30px">AR Data Visualization </span>  presented by Sugoi Nation</p>
+            <p> <span style="font-size: 30px">AR Data Visualization / Prediction</span>  presented by Sugoi Nation</p>
         </div>
         <div id = "video" class="col-sm-12 col-md-9" >
         </div>
         <div id = "options" class="col-sm-12 col-md-3" >
-            <h2><span class = "text">Sidebar</span></h2>
+            <h2><span class = "text">Predictive Model
+                </span></h2>
             <form>
-                Time:<br>
-                <!--<label>Start:</label> <input type="date" name="date1" value="date1" checked><br>
+                <!--Time:<br>
+                <label>Start:</label> <input type="date" name="date1" value="date1" checked><br>
                 <label>End:</label><input type="date" name="date2" value="date2" checked><br><br>-->
-                Display Counter:
-                <br><input type="radio" name="display" id = "a" value="a" checked><b>A</b><br>
-                <input type="radio" name="display" id = "b" value="b"><b>B</b><br>
-                <input type="radio" name="display" id = "c" value="c"><b>C</b><br><br>
                 
-                Predictive Model:
+                
+                <input type="radio" name="display" id = "a" value="a" checked><b>Impressions</b><br>
+                <input type="radio" name="display" id = "b" value="b"><b>CPM</b><br>
+                <input type="radio" name="display" id = "c" value="c"><b>Impression/CPM</b><br>
+                
+                <span id = "predmodel">
                 <br>
-                <label>Time:</label> <input type="text" id = "time" name="time" placeholder="time">
+                <label>Time:</label> <input type="text" id = "time" name="time" class = "black" placeholder="time">
                 <br>
                 <label> Platform:</label>
-                <input type="text" name="platform" id = "platform" placeholder="platform">
+                <input type="text" name="platform" id = "platform" class = "black" placeholder="platform">
                 <br>
                 <label> Type:</label>
-                <input type="text" name="type" id = "type" placeholder="type">
+                <input type="text" name="type" id = "type" class = "black" placeholder="type">
                 <br><br>
                 <input onclick = "conversion" id = "submit" type="submit" value="Submit">
+                </span>
             </form>
             <div id = "prediction"> 
-            <p>Predicted Value:                                    <span id = "pred">hi</span></p>
+            <b>Predicted Value:</b>                        <br>            <span id = "pred"></span>
             </div>
         </div>
 
