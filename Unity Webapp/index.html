@@ -23,27 +23,25 @@
             <p> <span style="font-size: 30px">AR Data Visualization </span>  presented by Sugoi Nation</p>
         </div>
         <div id = "video" class="col-sm-12 col-md-9" >
-        <body class="template">
-    <p class="header"><span>Unity WebGL Player | </span>UnityTest</p>
-    <div class="template-wrap clear">
-      <canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()" height="600px" width="960px"></canvas>
-      
-    </div>
-    <p class="footer">&laquo; created with <a href="http://unity3d.com/" title="Go to unity3d.com">Unity</a> &raquo;</p>
-    <script type='text/javascript'>
-  var Module = {
-    TOTAL_MEMORY: 268435456,
-    errorhandler: null,     // arguments: err, url, line. This function must return 'true' if the error is handled, otherwise 'false'
-    compatibilitycheck: null,
-    dataUrl: "Release/TestProjects.data",
-    codeUrl: "Release/TestProjects.js",
-    memUrl: "Release/TestProjects.mem",
-    
-  };
-</script>
-<script src="Release/UnityLoader.js"></script>
-  </body>
-  </div>
+            <body class="template">
+                <p class="header"><span>Unity WebGL Player | </span>UnityTest</p>
+                <div class="template-wrap clear">
+                <canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()" height="600px" width="960px"></canvas>
+                </div>
+                <p class="footer">&laquo; created with <a href="http://unity3d.com/" title="Go to unity3d.com">Unity</a> &raquo;</p>
+                <script type='text/javascript'>
+                  var Module = {
+                    TOTAL_MEMORY: 268435456,
+                    errorhandler: null,     // arguments: err, url, line. This function must return 'true' if the error is handled, otherwise 'false'
+                    compatibilitycheck: null,
+                    dataUrl: "Release/TestProjects.data",
+                    codeUrl: "Release/TestProjects.js",
+                    memUrl: "Release/TestProjects.mem",
+                    };
+                </script>
+                <script src="Release/UnityLoader.js"></script>
+            </body>
+        </div>
         <div id = "options" class="col-sm-12 col-md-3" >
             <h2><span class = "text">Sidebar</span></h2>
             <form>
