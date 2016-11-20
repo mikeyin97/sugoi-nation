@@ -1,0 +1,854 @@
+Mono path[0] = 'C:/unity/New Unity Project/Build/adData_Data/Managed'
+Mono path[1] = 'C:/unity/New Unity Project/Build/adData_Data/Mono'
+Mono config path = 'C:/unity/New Unity Project/Build/adData_Data/Mono/etc'
+PlayerConnection initialized from C:/unity/New Unity Project/Build/adData_Data (debug = 0)
+PlayerConnection initialized network socket : 0.0.0.0 55100
+Multi-casting "[IP] 100.64.228.126 [Port] 55100 [Flags] 3 [Guid] 1703638120 [EditorId] 1323174636 [Version] 1048832 [Id] WindowsPlayer(LAPTOP-8KFS0NB3) [Debug] 1" to [225.0.0.222:54997]...
+Waiting for connection from host on [100.64.228.126:55100]...
+Timed out. Continuing without host connection.
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,defer=y,address=0.0.0.0:56120
+PlayerConnection already initialized - listening to [100.64.228.126:55100]
+Initialize engine version: 5.4.3f1 (01f4c123905a)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: Intel(R) HD Graphics 520 (ID=0x1916)
+    Vendor:   Intel
+    VRAM:     2111 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\unity\New Unity Project\Build\adData_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\unity\New Unity Project\Build\adData_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\unity\New Unity Project\Build\adData_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\unity\New Unity Project\Build\adData_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\unity\New Unity Project\Build\adData_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\unity\New Unity Project\Build\adData_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\unity\New Unity Project\Build\adData_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\unity\New Unity Project\Build\adData_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\unity\New Unity Project\Build\adData_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\unity\New Unity Project\Build\adData_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+Platform assembly: C:\unity\New Unity Project\Build\adData_Data\Managed\LitJson.dll (this message is harmless)
+Loading C:\unity\New Unity Project\Build\adData_Data\Managed\LitJson.dll into Unity Child Domain
+- Completed reload, in  0.048 seconds
+Platform assembly: C:\unity\New Unity Project\Build\adData_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\unity\New Unity Project\Build\adData_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 0.892444 ms
+ARController: ARToolKit version 5.3.2 initialised.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ARController:Log(String) (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:1632)
+ARController:Awake() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:325)
+ 
+(Filename: C:/unity/New Unity Project/Assets/ARToolKit5-Unity/Scripts/ARController.cs Line: 1632)
+
+ARController (native): [info]Loading single AR marker from buffer, width 80.000000.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ARController:Log(String) (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:1632)
+ARNativePlugin:arwAddMarker(String)
+PluginFunctions:arwAddMarker(String) (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\PluginFunctions.cs:429)
+ARMarker:Load() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARMarker.cs:268)
+ARMarker:OnEnable() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARMarker.cs:158)
+ 
+(Filename: C:/unity/New Unity Project/Assets/ARToolKit5-Unity/Scripts/ARController.cs Line: 1632)
+
+ARController (native): [info]Added marker (UID=0), total markers loaded: 1.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ARController:Log(String) (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:1632)
+ARNativePlugin:arwAddMarker(String)
+PluginFunctions:arwAddMarker(String) (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\PluginFunctions.cs:429)
+ARMarker:Load() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARMarker.cs:268)
+ARMarker:OnEnable() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARMarker.cs:158)
+ 
+(Filename: C:/unity/New Unity Project/Assets/ARToolKit5-Unity/Scripts/ARController.cs Line: 1632)
+
+ARController: Starting AR.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ARController:Log(String) (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:1632)
+ARController:StartAR() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:489)
+ARController:Start() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:374)
+ 
+(Filename: C:/unity/New Unity Project/Assets/ARToolKit5-Unity/Scripts/ARController.cs Line: 1632)
+
+ARController: Render device: Direct3D 11.0 [level 11.0], using Unity texturing.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ARController:Log(String) (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:1632)
+ARController:StartAR() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:499)
+ARController:Start() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:374)
+ 
+(Filename: C:/unity/New Unity Project/Assets/ARToolKit5-Unity/Scripts/ARController.cs Line: 1632)
+
+ARController: Starting ARToolKit video with vconf '-showDialog -flipV'.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ARController:Log(String) (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:1632)
+ARController:StartAR() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:583)
+ARController:Start() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:374)
+ 
+(Filename: C:/unity/New Unity Project/Assets/ARToolKit5-Unity/Scripts/ARController.cs Line: 1632)
+
+ARController (native): [info]ARController::startRunning(): called, start running
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ARController:Log(String) (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:1632)
+ARNativePlugin:arwStartRunningB(String, Byte[], Int32, Single, Single)
+PluginFunctions:arwStartRunningB(String, Byte[], Int32, Single, Single) (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\PluginFunctions.cs:114)
+ARController:StartAR() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:585)
+ARController:Start() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:374)
+ 
+(Filename: C:/unity/New Unity Project/Assets/ARToolKit5-Unity/Scripts/ARController.cs Line: 1632)
+
+ARController (native): [info]Setting video configuration '-showDialog -flipV'.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ARController:Log(String) (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:1632)
+ARNativePlugin:arwStartRunningB(String, Byte[], Int32, Single, Single)
+PluginFunctions:arwStartRunningB(String, Byte[], Int32, Single, Single) (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\PluginFunctions.cs:114)
+ARController:StartAR() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:585)
+ARController:Start() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:374)
+ 
+(Filename: C:/unity/New Unity Project/Assets/ARToolKit5-Unity/Scripts/ARController.cs Line: 1632)
+
+ARController (native): [info]Settting camera parameters buffer: 176 bytes.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ARController:Log(String) (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:1632)
+ARNativePlugin:arwStartRunningB(String, Byte[], Int32, Single, Single)
+PluginFunctions:arwStartRunningB(String, Byte[], Int32, Single, Single) (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\PluginFunctions.cs:114)
+ARController:StartAR() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:585)
+ARController:Start() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:374)
+ 
+(Filename: C:/unity/New Unity Project/Assets/ARToolKit5-Unity/Scripts/ARController.cs Line: 1632)
+
+ARController (native): [info]Opening ARToolKit video using configuration '-showDialog -flipV'.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ARController:Log(String) (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:1632)
+ARNativePlugin:arwStartRunningB(String, Byte[], Int32, Single, Single)
+PluginFunctions:arwStartRunningB(String, Byte[], Int32, Single, Single) (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\PluginFunctions.cs:114)
+ARController:StartAR() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:585)
+ARController:Start() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:374)
+ 
+(Filename: C:/unity/New Unity Project/Assets/ARToolKit5-Unity/Scripts/ARController.cs Line: 1632)
+
+ARController (native): [info]Opened ARToolKit video 640x360@3Bpp (AR_PIXEL_FORMAT_BGR).
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ARController:Log(String) (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:1632)
+ARNativePlugin:arwStartRunningB(String, Byte[], Int32, Single, Single)
+PluginFunctions:arwStartRunningB(String, Byte[], Int32, Single, Single) (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\PluginFunctions.cs:114)
+ARController:StartAR() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:585)
+ARController:Start() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:374)
+ 
+(Filename: C:/unity/New Unity Project/Assets/ARToolKit5-Unity/Scripts/ARController.cs Line: 1632)
+
+ARController (native): [info]Camera parameters loaded from buffer.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ARController:Log(String) (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:1632)
+ARNativePlugin:arwStartRunningB(String, Byte[], Int32, Single, Single)
+PluginFunctions:arwStartRunningB(String, Byte[], Int32, Single, Single) (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\PluginFunctions.cs:114)
+ARController:StartAR() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:585)
+ARController:Start() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:374)
+ 
+(Filename: C:/unity/New Unity Project/Assets/ARToolKit5-Unity/Scripts/ARController.cs Line: 1632)
+
+ARController: Setting ARToolKit tracking settings.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ARController:Log(String) (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:1632)
+ARController:StartAR() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:606)
+ARController:Start() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:374)
+ 
+(Filename: C:/unity/New Unity Project/Assets/ARToolKit5-Unity/Scripts/ARController.cs Line: 1632)
+
+AROrigin: Found 1 markers eligible to become base marker.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ARController:Log(String) (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:1632)
+AROrigin:FindMarkers() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\AROrigin.cs:110)
+AROrigin:Start() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\AROrigin.cs:116)
+ 
+(Filename: C:/unity/New Unity Project/Assets/ARToolKit5-Unity/Scripts/ARController.cs Line: 1632)
+
+ARController: UpdateAR: Waiting for ARToolKit video.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ARController:Log(String) (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:1632)
+ARController:UpdateAR() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:631)
+ARController:Update() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:413)
+ 
+(Filename: C:/unity/New Unity Project/Assets/ARToolKit5-Unity/Scripts/ARController.cs Line: 1632)
+
+ARController (native): [info]ARController::initAR() called
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ARController:Log(String) (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:1632)
+ARNativePlugin:arwUpdateAR()
+PluginFunctions:arwUpdateAR() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\PluginFunctions.cs:184)
+ARController:UpdateAR() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:735)
+ARController:Update() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:413)
+ 
+(Filename: C:/unity/New Unity Project/Assets/ARToolKit5-Unity/Scripts/ARController.cs Line: 1632)
+
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 2c70 -> priority: 1 
+ARController: UpdateAR: ARToolKit video is running. Configuring Unity scene for video.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ARController:Log(String) (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:1632)
+ARController:UpdateAR() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:635)
+ARController:Update() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:413)
+ 
+(Filename: C:/unity/New Unity Project/Assets/ARToolKit5-Unity/Scripts/ARController.cs Line: 1632)
+
+ARController: Video 640x360@3Bpp (AR_PIXEL_FORMAT_BGR)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ARController:Log(String) (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:1632)
+ARController:UpdateAR() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:646)
+ARController:Update() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:413)
+ 
+(Filename: C:/unity/New Unity Project/Assets/ARToolKit5-Unity/Scripts/ARController.cs Line: 1632)
+
+ARController: Projection matrix: [
+2.12299	0.00000	0.00376	0.00000
+0.00000	2.66479	-0.00599	0.00000
+0.00000	0.00000	-1.00401	-0.02004
+0.00000	0.00000	-1.00000	0.00000]
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ARController:Log(String) (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:1632)
+ARController:UpdateAR() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:652)
+ARController:Update() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:413)
+ 
+(Filename: C:/unity/New Unity Project/Assets/ARToolKit5-Unity/Scripts/ARController.cs Line: 1632)
+
+ARController: Video size 640x360 will use texture size 640x360.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ARController:Log(String) (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:1632)
+ARController:CreateVideoBackgroundMesh(Int32, Int32, Int32, Int32, Color[]&, Color32[]&, Texture2D&, Material&) (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:1261)
+ARController:UpdateAR() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:657)
+ARController:Update() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:413)
+ 
+(Filename: C:/unity/New Unity Project/Assets/ARToolKit5-Unity/Scripts/ARController.cs Line: 1632)
+
+ARController: Scene configured for video.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ARController:Log(String) (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:1632)
+ARController:UpdateAR() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:729)
+ARController:Update() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:413)
+ 
+(Filename: C:/unity/New Unity Project/Assets/ARToolKit5-Unity/Scripts/ARController.cs Line: 1632)
+
+ARController (native): [info]Marker 0 now visible
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ARController:Log(String) (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:1632)
+ARNativePlugin:arwUpdateAR()
+PluginFunctions:arwUpdateAR() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\PluginFunctions.cs:184)
+ARController:UpdateAR() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:735)
+ARController:Update() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:413)
+ 
+(Filename: C:/unity/New Unity Project/Assets/ARToolKit5-Unity/Scripts/ARController.cs Line: 1632)
+
+ARController (native): [info]Marker 0 no longer visible
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ARController:Log(String) (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:1632)
+ARNativePlugin:arwUpdateAR()
+PluginFunctions:arwUpdateAR() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\PluginFunctions.cs:184)
+ARController:UpdateAR() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:735)
+ARController:Update() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:413)
+ 
+(Filename: C:/unity/New Unity Project/Assets/ARToolKit5-Unity/Scripts/ARController.cs Line: 1632)
+
+ARController (native): [info]Marker 0 now visible
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ARController:Log(String) (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:1632)
+ARNativePlugin:arwUpdateAR()
+PluginFunctions:arwUpdateAR() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\PluginFunctions.cs:184)
+ARController:UpdateAR() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:735)
+ARController:Update() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:413)
+ 
+(Filename: C:/unity/New Unity Project/Assets/ARToolKit5-Unity/Scripts/ARController.cs Line: 1632)
+
+ARController (native): [info]Marker 0 no longer visible
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ARController:Log(String) (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:1632)
+ARNativePlugin:arwUpdateAR()
+PluginFunctions:arwUpdateAR() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\PluginFunctions.cs:184)
+ARController:UpdateAR() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:735)
+ARController:Update() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:413)
+ 
+(Filename: C:/unity/New Unity Project/Assets/ARToolKit5-Unity/Scripts/ARController.cs Line: 1632)
+
+ARController (native): [info]Marker 0 now visible
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ARController:Log(String) (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:1632)
+ARNativePlugin:arwUpdateAR()
+PluginFunctions:arwUpdateAR() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\PluginFunctions.cs:184)
+ARController:UpdateAR() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:735)
+ARController:Update() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:413)
+ 
+(Filename: C:/unity/New Unity Project/Assets/ARToolKit5-Unity/Scripts/ARController.cs Line: 1632)
+
+ARController (native): [info]Marker 0 no longer visible
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ARController:Log(String) (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:1632)
+ARNativePlugin:arwUpdateAR()
+PluginFunctions:arwUpdateAR() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\PluginFunctions.cs:184)
+ARController:UpdateAR() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:735)
+ARController:Update() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:413)
+ 
+(Filename: C:/unity/New Unity Project/Assets/ARToolKit5-Unity/Scripts/ARController.cs Line: 1632)
+
+ARController (native): [info]Marker 0 now visible
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ARController:Log(String) (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:1632)
+ARNativePlugin:arwUpdateAR()
+PluginFunctions:arwUpdateAR() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\PluginFunctions.cs:184)
+ARController:UpdateAR() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:735)
+ARController:Update() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:413)
+ 
+(Filename: C:/unity/New Unity Project/Assets/ARToolKit5-Unity/Scripts/ARController.cs Line: 1632)
+
+ARController (native): [info]Marker 0 no longer visible
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ARController:Log(String) (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:1632)
+ARNativePlugin:arwUpdateAR()
+PluginFunctions:arwUpdateAR() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\PluginFunctions.cs:184)
+ARController:UpdateAR() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:735)
+ARController:Update() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:413)
+ 
+(Filename: C:/unity/New Unity Project/Assets/ARToolKit5-Unity/Scripts/ARController.cs Line: 1632)
+
+ARController (native): [info]Marker 0 now visible
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ARController:Log(String) (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:1632)
+ARNativePlugin:arwUpdateAR()
+PluginFunctions:arwUpdateAR() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\PluginFunctions.cs:184)
+ARController:UpdateAR() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:735)
+ARController:Update() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:413)
+ 
+(Filename: C:/unity/New Unity Project/Assets/ARToolKit5-Unity/Scripts/ARController.cs Line: 1632)
+
+ARController (native): [info]Marker 0 no longer visible
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ARController:Log(String) (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:1632)
+ARNativePlugin:arwUpdateAR()
+PluginFunctions:arwUpdateAR() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\PluginFunctions.cs:184)
+ARController:UpdateAR() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:735)
+ARController:Update() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:413)
+ 
+(Filename: C:/unity/New Unity Project/Assets/ARToolKit5-Unity/Scripts/ARController.cs Line: 1632)
+
+ARController (native): [info]Marker 0 now visible
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ARController:Log(String) (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:1632)
+ARNativePlugin:arwUpdateAR()
+PluginFunctions:arwUpdateAR() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\PluginFunctions.cs:184)
+ARController:UpdateAR() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:735)
+ARController:Update() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:413)
+ 
+(Filename: C:/unity/New Unity Project/Assets/ARToolKit5-Unity/Scripts/ARController.cs Line: 1632)
+
+ARController (native): [info]Marker 0 no longer visible
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ARController:Log(String) (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:1632)
+ARNativePlugin:arwUpdateAR()
+PluginFunctions:arwUpdateAR() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\PluginFunctions.cs:184)
+ARController:UpdateAR() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:735)
+ARController:Update() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:413)
+ 
+(Filename: C:/unity/New Unity Project/Assets/ARToolKit5-Unity/Scripts/ARController.cs Line: 1632)
+
+ARController (native): [info]Marker 0 now visible
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ARController:Log(String) (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:1632)
+ARNativePlugin:arwUpdateAR()
+PluginFunctions:arwUpdateAR() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\PluginFunctions.cs:184)
+ARController:UpdateAR() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:735)
+ARController:Update() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:413)
+ 
+(Filename: C:/unity/New Unity Project/Assets/ARToolKit5-Unity/Scripts/ARController.cs Line: 1632)
+
+ARController (native): [info]Marker 0 no longer visible
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ARController:Log(String) (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:1632)
+ARNativePlugin:arwUpdateAR()
+PluginFunctions:arwUpdateAR() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\PluginFunctions.cs:184)
+ARController:UpdateAR() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:735)
+ARController:Update() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:413)
+ 
+(Filename: C:/unity/New Unity Project/Assets/ARToolKit5-Unity/Scripts/ARController.cs Line: 1632)
+
+ARController (native): [info]Marker 0 now visible
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ARController:Log(String) (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:1632)
+ARNativePlugin:arwUpdateAR()
+PluginFunctions:arwUpdateAR() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\PluginFunctions.cs:184)
+ARController:UpdateAR() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:735)
+ARController:Update() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:413)
+ 
+(Filename: C:/unity/New Unity Project/Assets/ARToolKit5-Unity/Scripts/ARController.cs Line: 1632)
+
+ARController (native): [info]Marker 0 no longer visible
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ARController:Log(String) (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:1632)
+ARNativePlugin:arwUpdateAR()
+PluginFunctions:arwUpdateAR() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\PluginFunctions.cs:184)
+ARController:UpdateAR() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:735)
+ARController:Update() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:413)
+ 
+(Filename: C:/unity/New Unity Project/Assets/ARToolKit5-Unity/Scripts/ARController.cs Line: 1632)
+
+ARController (native): [info]Marker 0 now visible
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ARController:Log(String) (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:1632)
+ARNativePlugin:arwUpdateAR()
+PluginFunctions:arwUpdateAR() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\PluginFunctions.cs:184)
+ARController:UpdateAR() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:735)
+ARController:Update() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:413)
+ 
+(Filename: C:/unity/New Unity Project/Assets/ARToolKit5-Unity/Scripts/ARController.cs Line: 1632)
+
+ARController (native): [info]Marker 0 no longer visible
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ARController:Log(String) (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:1632)
+ARNativePlugin:arwUpdateAR()
+PluginFunctions:arwUpdateAR() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\PluginFunctions.cs:184)
+ARController:UpdateAR() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:735)
+ARController:Update() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:413)
+ 
+(Filename: C:/unity/New Unity Project/Assets/ARToolKit5-Unity/Scripts/ARController.cs Line: 1632)
+
+ARController (native): [info]Marker 0 now visible
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ARController:Log(String) (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:1632)
+ARNativePlugin:arwUpdateAR()
+PluginFunctions:arwUpdateAR() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\PluginFunctions.cs:184)
+ARController:UpdateAR() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:735)
+ARController:Update() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:413)
+ 
+(Filename: C:/unity/New Unity Project/Assets/ARToolKit5-Unity/Scripts/ARController.cs Line: 1632)
+
+ARController (native): [info]Marker 0 no longer visible
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ARController:Log(String) (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:1632)
+ARNativePlugin:arwUpdateAR()
+PluginFunctions:arwUpdateAR() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\PluginFunctions.cs:184)
+ARController:UpdateAR() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:735)
+ARController:Update() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:413)
+ 
+(Filename: C:/unity/New Unity Project/Assets/ARToolKit5-Unity/Scripts/ARController.cs Line: 1632)
+
+ARController (native): [info]Marker 0 now visible
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ARController:Log(String) (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:1632)
+ARNativePlugin:arwUpdateAR()
+PluginFunctions:arwUpdateAR() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\PluginFunctions.cs:184)
+ARController:UpdateAR() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:735)
+ARController:Update() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:413)
+ 
+(Filename: C:/unity/New Unity Project/Assets/ARToolKit5-Unity/Scripts/ARController.cs Line: 1632)
+
+ARController (native): [info]Marker 0 no longer visible
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ARController:Log(String) (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:1632)
+ARNativePlugin:arwUpdateAR()
+PluginFunctions:arwUpdateAR() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\PluginFunctions.cs:184)
+ARController:UpdateAR() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:735)
+ARController:Update() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:413)
+ 
+(Filename: C:/unity/New Unity Project/Assets/ARToolKit5-Unity/Scripts/ARController.cs Line: 1632)
+
+ARController (native): [info]Marker 0 now visible
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ARController:Log(String) (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:1632)
+ARNativePlugin:arwUpdateAR()
+PluginFunctions:arwUpdateAR() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\PluginFunctions.cs:184)
+ARController:UpdateAR() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:735)
+ARController:Update() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:413)
+ 
+(Filename: C:/unity/New Unity Project/Assets/ARToolKit5-Unity/Scripts/ARController.cs Line: 1632)
+
+ARController (native): [info]Marker 0 no longer visible
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ARController:Log(String) (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:1632)
+ARNativePlugin:arwUpdateAR()
+PluginFunctions:arwUpdateAR() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\PluginFunctions.cs:184)
+ARController:UpdateAR() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:735)
+ARController:Update() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:413)
+ 
+(Filename: C:/unity/New Unity Project/Assets/ARToolKit5-Unity/Scripts/ARController.cs Line: 1632)
+
+ARController (native): [info]Marker 0 now visible
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ARController:Log(String) (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:1632)
+ARNativePlugin:arwUpdateAR()
+PluginFunctions:arwUpdateAR() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\PluginFunctions.cs:184)
+ARController:UpdateAR() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:735)
+ARController:Update() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:413)
+ 
+(Filename: C:/unity/New Unity Project/Assets/ARToolKit5-Unity/Scripts/ARController.cs Line: 1632)
+
+ARController (native): [info]Marker 0 no longer visible
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ARController:Log(String) (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:1632)
+ARNativePlugin:arwUpdateAR()
+PluginFunctions:arwUpdateAR() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\PluginFunctions.cs:184)
+ARController:UpdateAR() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:735)
+ARController:Update() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:413)
+ 
+(Filename: C:/unity/New Unity Project/Assets/ARToolKit5-Unity/Scripts/ARController.cs Line: 1632)
+
+ARController (native): [info]Marker 0 now visible
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ARController:Log(String) (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:1632)
+ARNativePlugin:arwUpdateAR()
+PluginFunctions:arwUpdateAR() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\PluginFunctions.cs:184)
+ARController:UpdateAR() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:735)
+ARController:Update() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:413)
+ 
+(Filename: C:/unity/New Unity Project/Assets/ARToolKit5-Unity/Scripts/ARController.cs Line: 1632)
+
+ARController (native): [info]Marker 0 no longer visible
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ARController:Log(String) (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:1632)
+ARNativePlugin:arwUpdateAR()
+PluginFunctions:arwUpdateAR() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\PluginFunctions.cs:184)
+ARController:UpdateAR() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:735)
+ARController:Update() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:413)
+ 
+(Filename: C:/unity/New Unity Project/Assets/ARToolKit5-Unity/Scripts/ARController.cs Line: 1632)
+
+ARController (native): [info]Marker 0 now visible
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ARController:Log(String) (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:1632)
+ARNativePlugin:arwUpdateAR()
+PluginFunctions:arwUpdateAR() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\PluginFunctions.cs:184)
+ARController:UpdateAR() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:735)
+ARController:Update() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:413)
+ 
+(Filename: C:/unity/New Unity Project/Assets/ARToolKit5-Unity/Scripts/ARController.cs Line: 1632)
+
+ARController (native): [info]Marker 0 no longer visible
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ARController:Log(String) (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:1632)
+ARNativePlugin:arwUpdateAR()
+PluginFunctions:arwUpdateAR() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\PluginFunctions.cs:184)
+ARController:UpdateAR() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:735)
+ARController:Update() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:413)
+ 
+(Filename: C:/unity/New Unity Project/Assets/ARToolKit5-Unity/Scripts/ARController.cs Line: 1632)
+
+ARController (native): [info]Marker 0 now visible
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ARController:Log(String) (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:1632)
+ARNativePlugin:arwUpdateAR()
+PluginFunctions:arwUpdateAR() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\PluginFunctions.cs:184)
+ARController:UpdateAR() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:735)
+ARController:Update() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:413)
+ 
+(Filename: C:/unity/New Unity Project/Assets/ARToolKit5-Unity/Scripts/ARController.cs Line: 1632)
+
+ARController (native): [info]Marker 0 no longer visible
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ARController:Log(String) (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:1632)
+ARNativePlugin:arwUpdateAR()
+PluginFunctions:arwUpdateAR() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\PluginFunctions.cs:184)
+ARController:UpdateAR() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:735)
+ARController:Update() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:413)
+ 
+(Filename: C:/unity/New Unity Project/Assets/ARToolKit5-Unity/Scripts/ARController.cs Line: 1632)
+
+ARController (native): [info]Marker 0 now visible
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ARController:Log(String) (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:1632)
+ARNativePlugin:arwUpdateAR()
+PluginFunctions:arwUpdateAR() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\PluginFunctions.cs:184)
+ARController:UpdateAR() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:735)
+ARController:Update() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:413)
+ 
+(Filename: C:/unity/New Unity Project/Assets/ARToolKit5-Unity/Scripts/ARController.cs Line: 1632)
+
+ARController (native): [info]Marker 0 no longer visible
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ARController:Log(String) (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:1632)
+ARNativePlugin:arwUpdateAR()
+PluginFunctions:arwUpdateAR() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\PluginFunctions.cs:184)
+ARController:UpdateAR() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:735)
+ARController:Update() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:413)
+ 
+(Filename: C:/unity/New Unity Project/Assets/ARToolKit5-Unity/Scripts/ARController.cs Line: 1632)
+
+ARController (native): [info]Marker 0 now visible
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ARController:Log(String) (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:1632)
+ARNativePlugin:arwUpdateAR()
+PluginFunctions:arwUpdateAR() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\PluginFunctions.cs:184)
+ARController:UpdateAR() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:735)
+ARController:Update() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:413)
+ 
+(Filename: C:/unity/New Unity Project/Assets/ARToolKit5-Unity/Scripts/ARController.cs Line: 1632)
+
+ARController (native): [info]Marker 0 no longer visible
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ARController:Log(String) (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:1632)
+ARNativePlugin:arwUpdateAR()
+PluginFunctions:arwUpdateAR() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\PluginFunctions.cs:184)
+ARController:UpdateAR() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:735)
+ARController:Update() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:413)
+ 
+(Filename: C:/unity/New Unity Project/Assets/ARToolKit5-Unity/Scripts/ARController.cs Line: 1632)
+
+ARController (native): [info]Marker 0 now visible
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ARController:Log(String) (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:1632)
+ARNativePlugin:arwUpdateAR()
+PluginFunctions:arwUpdateAR() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\PluginFunctions.cs:184)
+ARController:UpdateAR() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:735)
+ARController:Update() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:413)
+ 
+(Filename: C:/unity/New Unity Project/Assets/ARToolKit5-Unity/Scripts/ARController.cs Line: 1632)
+
+ARController (native): [info]Marker 0 no longer visible
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ARController:Log(String) (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:1632)
+ARNativePlugin:arwUpdateAR()
+PluginFunctions:arwUpdateAR() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\PluginFunctions.cs:184)
+ARController:UpdateAR() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:735)
+ARController:Update() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:413)
+ 
+(Filename: C:/unity/New Unity Project/Assets/ARToolKit5-Unity/Scripts/ARController.cs Line: 1632)
+
+ARController: Stopping AR.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ARController:Log(String) (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:1632)
+ARController:StopAR() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:752)
+ARController:OnApplicationQuit() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:427)
+ 
+(Filename: C:/unity/New Unity Project/Assets/ARToolKit5-Unity/Scripts/ARController.cs Line: 1632)
+
+ARController (native): [info]Closing ARToolKit video.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ARController:Log(String) (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:1632)
+ARNativePlugin:arwStopRunning()
+PluginFunctions:arwStopRunning() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\PluginFunctions.cs:132)
+ARController:StopAR() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:755)
+ARController:OnApplicationQuit() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:427)
+ 
+(Filename: C:/unity/New Unity Project/Assets/ARToolKit5-Unity/Scripts/ARController.cs Line: 1632)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 23.7 MB.
+System memory in use after: 23.8 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 5549.
+Total: 1.404444 ms (FindLiveObjects: 0.264691 ms CreateObjectMapping: 0.120493 ms MarkObjects: 1.005037 ms  DeleteObjects: 0.013037 ms)
+
+ARController (native): [info]Last square marker removed; disabling square marker detection.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ARController:Log(String) (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:1632)
+ARNativePlugin:arwRemoveMarker(Int32)
+PluginFunctions:arwRemoveMarker(Int32) (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\PluginFunctions.cs:435)
+ARMarker:Unload() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARMarker.cs:356)
+ARMarker:OnDisable() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARMarker.cs:164)
+ 
+(Filename: C:/unity/New Unity Project/Assets/ARToolKit5-Unity/Scripts/ARController.cs Line: 1632)
+
+ARController (native): [info]Removed marker (UID=0), now 0 markers loaded
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ARController:Log(String) (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:1632)
+ARNativePlugin:arwRemoveMarker(Int32)
+PluginFunctions:arwRemoveMarker(Int32) (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\PluginFunctions.cs:435)
+ARMarker:Unload() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARMarker.cs:356)
+ARMarker:OnDisable() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARMarker.cs:164)
+ 
+(Filename: C:/unity/New Unity Project/Assets/ARToolKit5-Unity/Scripts/ARController.cs Line: 1632)
+
+ARController: Shutting down ARToolKit
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ARController:Log(String) (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:1632)
+ARController:OnDestroy() (at C:\unity\New Unity Project\Assets\ARToolKit5-Unity\Scripts\ARController.cs:468)
+ 
+(Filename: C:/unity/New Unity Project/Assets/ARToolKit5-Unity/Scripts/ARController.cs Line: 1632)
+
