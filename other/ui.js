@@ -1,20 +1,26 @@
-var appended = $('<div />').text("You're appendin'!");
-appended.id = 'appended';
-var url = 'http://localhost:3000/';
+
+var url = '';
 
 
 $(document).ready(function(){
     $('input:radio[name="display"]').change(
     function(){
         if ($(this).val() == 'a') {
-            $('#video').css('background-image','url(em2AYOL.gif)');
+            $('#video').css('background-color','green');
         }
         else if ($(this).val() == 'b'){
-            $('#video').css('background-image','url(ezgif-2507893654.gif)');
+            $('#video').css('background-color','blue');
         }
         else{
-            $('#video').css('background-image','url(ughhh.PNG)');
+            $('#video').css('background-color','red');
         }
+    });
+    $("#submit").click(function(){
+        
+        //$.ajax({url: "http://localhost:3000/", success: function(result){
+        //    $("#header").html(result);
+        //}});
+        return false;
     });
    
 });

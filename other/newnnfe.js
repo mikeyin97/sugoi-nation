@@ -1,5 +1,6 @@
 var http = require('http');
 var synaptic = require('synaptic');
+var jsonfile = require('jsonfile');
 var Neuron = synaptic.Neuron,
     Layer = synaptic.Layer,
     Network = synaptic.Network,
@@ -14,9 +15,36 @@ var trainingOptions = {
     iterations: 20000,
     error: .005,
 };
+var file = 'C:\Users\\Michael\\Documents\\GitHub\\sugoi-nation\\other\\test2.json'
 
 var url = 'http://localhost:8000/impressions?dc=NA';
 
+var trainingSet = [
+  {
+    input: [0,0,1,0.12,0,0,0,0,1,1],
+    output: [1]
+  },
+  {
+    input:  [0,1,0,0.045,0,0,1,1,0,0],
+    output: [0]
+  },
+  {
+    input:  [1,0,0,0.42,1,1,0,0,0,0],
+    output: [1]
+  }
+]
+
+var trainingOptions = {
+  rate: .1,
+  iterations: 20000,
+  error: .005,
+}
+
+myNet.trainer.train(trainingSet, trainingOptions);
+var exported = myNet.toJSON();
+        jsonfile.writeFile(file, exported, function (err) {
+            console.error(err)
+        })
 
 http.get(url, function (res) {
     var body = '';
@@ -27,11 +55,7 @@ http.get(url, function (res) {
 
     res.on('end', function () {
         var data = JSON.parse(body);
-        //console.log("Got a response: ", data);
-        //console.log(data.data[10])
-        //console.log(data.data[10].timestamp);
-        //console.log(data.data.length)
-
+        
         
         for (var i in data.data) {
             var inputvec = [];
@@ -70,9 +94,14 @@ http.get(url, function (res) {
         console.log(myNet);
         impressions = -5000*Math.log(1/(myNet.activate([0,0,1,1,8]))-1);
         console.log(impressions);
+        var exported = myNet.toJSON();
+        jsonfile.writeFile(file, exported, function (err) {
+            console.error(err)
+        })
     });
 }).on('error', function (e) {
     console.log("Got an error: ", e);
 });
+
 
 
