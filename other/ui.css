@@ -25,7 +25,7 @@ div{
 #video1{
     height:550px;
     overflow: hidden;
-    background-color:green;
+    background-color:black;
     border: 1px solid white;
 }
 
@@ -52,7 +52,7 @@ div{
 #video2{
     height:550px;
     overflow: hidden;
-    background-color:red;
+    background-color:grey;
     display:none;
     border: 1px solid white;
 }
