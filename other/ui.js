@@ -328,16 +328,13 @@ $(document).ready(function(){
             }
         });
     $("#submit").click(conversion);
-    //function(){
-
-    //$.ajax({url: "http://localhost:3000/", success: function(result){
-    //    $("#header").html(result);
-    //}});
-    //var inputvec = [];
-    //conversion;
-    //$('#pred').html("yo");
-    //return false;
-    //}
-
+    $("#livefeed1" ).click(function() {
+        $('#video1').hide();
+$('#video2').show();
+    });
+    $("#livefeed2" ).click(function() {
+        $('#video2').hide();
+$('#video1').show();
+    });
 
 });

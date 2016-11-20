@@ -22,11 +22,39 @@ div{
     line-height:60px;    
 }
 
-#video{
+#video1{
     height:550px;
-    border: 1px solid white;
     overflow: hidden;
     background-color:green;
+    border: 1px solid white;
+}
+
+#livefeed1{
+    position: relative;
+    color: black;
+    cursor: pointer;
+    background-color: antiquewhite;
+    border-radius: 5px;
+    top: 490px;
+    left: 840px;
+    
+}
+#livefeed2{
+    position: relative;
+    color: black;
+    cursor: pointer;
+    background-color: antiquewhite;
+    border-radius: 5px;
+    top: 490px;
+    left: 840px;
+    
+}
+#video2{
+    height:550px;
+    overflow: hidden;
+    background-color:red;
+    display:none;
+    border: 1px solid white;
 }
 
 #options{
@@ -57,7 +85,7 @@ label{
 input {
   display: inline-block;
   float: right;
-    height:23px;
+    height:22px;
 }
 #submit{
     height: 30px;
